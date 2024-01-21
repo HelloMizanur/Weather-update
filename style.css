@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.card{
+    height: auto;
+    width: 350px;
+    background: linear-gradient(to bottom, #63b9f2, #042a50);
+    border-radius: 20px;
+    box-shadow: white;
+    box-shadow: 0 0 8px rgba(252, 249, 249, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+/* Search Section */
+input{
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search button{
+    background-color: white;
+    border-radius: 50% ;
+    height: 45px;
+    width: 45px;
+    margin-left: 15px;
+    padding: 10px;
+    border: none;
+}
+.search button img{
+    height: 25px;
+    cursor: pointer;
+}
+.error{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+/* Weather Section */
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.temp{
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.city{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+/* Details Section */
+.detail{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    
+}
+.col img{
+    height: 30px;
+  
+}
+.col span{
+    margin-left: 15px;
+}
+.humi, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+/* Mini Card Styles */
+.mini-card {
+    background: linear-gradient(to bottom, #023a60, #01101e);
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(252, 249, 249, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px; /* Add margin to separate it from the weather card */
+}
+
+.mini-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
